@@ -177,3 +177,5 @@ class Program
             Console.WriteLine("FIGYELEM: Túl nagy az eltérés!");
     }
 }
+
+//A tényleges ok: a két kód buborék-rendezése ties esetén más sorrendet ad, ami dominószerűen más elosztást eredményez a greedy algoritmusban
